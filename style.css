@@ -54,7 +54,7 @@ body{
     min-height: 120px;
     border-radius: 20px;
     padding-left: 20px;
-    
+
 }
 
 .cards {
@@ -102,4 +102,25 @@ h3{
 p{
     font-size: 4rem;
     color: white;
+}
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+    .cards {
+        grid-template-columns: 1fr;
+    }
+    .navigation{
+      display: flex;
+        justify-content: space-around;
+        padding-top: 10px;
+
+    }
+    .card .card-info {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
 }
