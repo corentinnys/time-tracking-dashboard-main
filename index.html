@@ -9,90 +9,76 @@
   <title>Frontend Mentor | Time tracking dashboard</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <main>
-        <div>
-            <figure>
+    <main class="container">
+        <div class="header">
+            <figure class="figure">
                 <img src="./images/image-jeremy.png" alt="image jeremy">
                 <figcaption>
                     <p>Report for</p>
-                    <h2>Jeremy Robson</h2>
+                    <h2 class="text-white">Jeremy Robson</h2>
                 </figcaption>
             </figure>
-            <ul>
+            <ul class="navigation">
                 <li>Daily</li>
                 <li>Weekly</li>
                 <li>Monthly</li>
             </ul>
         </div>
-        <div>
-            <div>
-                <span>work</span>
-                <img src="./images/icon-ellipsis.svg" alt="icon ellipsis" >
+        <div class="cards">
+          <!--  <div class="card">
+               <div class="card-background work"></div>
+                <h3>Work</h3>
+                <p>5hrs</p>
+                <div>
+                    Last Week - 36hrs
+                </div>
             </div>
-            <h2>32Hr</h2>
-
+            <div class="card">
+                <div class="card-background play "></div>
+                <h3>play</h3>
+                <p>5hrs</p>
+                <div>
+                    Last Week - 36hrs
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-background study"></div>
+                <h3>study</h3>
+                <p>5hrs</p>
+                <div>
+                    Last Week - 36hrs
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-background exercice"></div>
+                <h3>exercice</h3>
+                <p>5hrs</p>
+                <div>
+                    Last Week - 36hrs
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-background social"></div>
+                <h3>Social</h3>
+                <p>5hrs</p>
+                <div>
+                    Last Week - 36hrs
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-background self-car"></div>
+                <h3>self care</h3>
+                <p>5hrs</p>
+                <div>
+                    Last Week - 36hrs
+                </div>
+            </div>-->
         </div>
     </main>
-
-
-  Work
-  5hrs <!-- daily -->
-  Previous - 7hrs <!-- daily -->
-  32hrs <!-- weekly -->
-  Previous - 36hrs <!-- weekly -->
-  103hrs <!-- monthly -->
-  Previous - 128hrs <!-- monthly -->
-
-  Play
-  1hr <!-- daily -->
-  Previous - 2hrs <!-- daily -->
-  10hrs <!-- weekly -->
-  Previous - 8hrs <!-- weekly -->
-  23hrs <!-- monthly -->
-  Previous - 29hrs <!-- monthly -->
-
-  Study
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 7hrs <!-- weekly -->
-  13hrs <!-- monthly -->
-  Previous - 19hrs <!-- monthly -->
-
-  Exercise
-  1hr <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 5hrs <!-- weekly -->
-  11hrs <!-- monthly -->
-  Previous - 18hrs <!-- monthly -->
-
-  Social
-  1hr <!-- daily -->
-  Previous - 3hrs <!-- daily -->
-  5hrs <!-- weekly -->
-  Previous - 10hrs <!-- weekly -->
-  21hrs <!-- monthly -->
-  Previous - 23hrs <!-- monthly -->
-
-  Self Care
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  2hrs <!-- weekly -->
-  Previous - 2hrs <!-- weekly -->
-  7hrs <!-- monthly -->
-  Previous - 11hrs <!-- monthly -->
-
-  
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </footer>
+    <script src="https://code.jquery.com/jquery-4.0.0.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>

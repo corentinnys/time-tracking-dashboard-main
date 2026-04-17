@@ -1,0 +1,105 @@
+body{
+    background: #0D1323;
+}
+.container{
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+}
+.header{
+    width: 100%;
+}
+.figure{
+    background: #5746EA;
+    padding: 20px;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    border-radius: 20px;
+}
+.figure img{
+    width: 30%;
+    height: 30%;
+    border:2px solid white;
+    border-radius: 50%;
+}
+.navigation{
+    background: #1D204B;
+    color: #616298;
+    list-style: none;
+    /*padding: 10px;*/
+    padding-top: 40px;
+    position: relative;
+    border-radius: 20px;
+
+}
+.navigation li:hover{
+    color: white;
+}
+.navigation li{
+    padding:20px;
+}
+
+.text-white{
+    color: white;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+    padding-top: 60px;
+    background: #1D204B;
+    min-height: 120px;
+    border-radius: 20px;
+    padding-left: 20px;
+    
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    align-items: stretch;
+}
+
+.card-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+}
+.work{
+    background: url("images/icon-work.svg") no-repeat right top;
+    background-color: orange;
+}
+.play{
+    background: url("images/icon-play.svg") no-repeat right top;
+    background-color: #47D999;
+}
+.study{
+    background: url("images/icon-study.svg") no-repeat right top;
+    background-color: #5746EA;
+}
+.exercise{
+    background: url("images/icon-exercise.svg") no-repeat right top;
+    background-color: #F15B5B;
+}
+.social{
+    background: url("images/icon-social.svg") no-repeat right top;
+    background-color: #F15B5B;
+}
+.self-care{
+    background: url("images/icon-self-care.svg") no-repeat right top;
+    background-color: #F1C75B;
+}
+h3{
+    font-size: 1rem;
+    color: white;
+}
+p{
+    font-size: 4rem;
+    color: white;
+}
